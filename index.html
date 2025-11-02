@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FITZONE Studio - Home</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/logo.png" />
+
+  <!-- Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Google Font -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top bg-white shadow-sm">
+    <div class="container d-flex justify-content-between align-items-center">
+      <!-- Logo -->
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img
+          src="assets/img/logo.png"
+          alt="FITZONE Studio Logo"
+          width="48"
+          height="48"
+          class="me-2 rounded shadow-sm"
+        />
+        <span class="fw-semibold text-dark">FITZONE Studio</span>
+      </a>
+
+      <!-- Mobile Toggle -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active text-primary" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="trainers.html">Trainers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="schedule.html">Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="register.html">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section
+    class="hero text-light text-center d-flex align-items-center justify-content-center"
+    style="
+      background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+        url('assets/img/hero.jpg') center/cover no-repeat;
+      min-height: 90vh;
+      margin-top: 60px;
+    "
+  >
+    <div class="container">
+      <h1 class="display-4 fw-bold mb-3">
+        Train Smarter. Move Better. Feel Stronger.
+      </h1>
+      <p class="lead mb-4">
+        Join FITZONE Studio for personalized fitness programs that transform your
+        life.
+      </p>
+      <a href="register.html" class="btn btn-cta btn-lg shadow-sm px-4">Join Now</a>
+    </div>
+  </section>
+
+  <!-- Programs Section -->
+  <section class="programs py-5">
+    <div class="container">
+      <h2 class="text-center fw-semibold mb-5 section-title">Our Programs</h2>
+      <div class="row g-4">
+        <div class="col-md-4 col-sm-6">
+          <div class="card border-0 shadow-sm h-100 text-center">
+            <img
+              src="assets/img/classes/yoga.jpg"
+              class="card-img-top"
+              alt="Yoga class in a serene studio"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-primary fw-semibold">Yoga</h5>
+              <p class="card-text text-muted">
+                Enhance flexibility and mindfulness with our expert-led yoga
+                sessions.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+          <div class="card border-0 shadow-sm h-100 text-center">
+            <img
+              src="assets/img/classes/zumba.jpg"
+              class="card-img-top"
+              alt="Group dancing in Zumba class"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-primary fw-semibold">Zumba</h5>
+              <p class="card-text text-muted">
+                Fun, energetic dance workouts to boost your cardio and mood.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+          <div class="card border-0 shadow-sm h-100 text-center">
+            <img
+              src="assets/img/classes/strength.jpg"
+              class="card-img-top"
+              alt="Person lifting weights in strength training"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-primary fw-semibold">Strength Training</h5>
+              <p class="card-text text-muted">
+                Build muscle and strength with personalized training plans.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 bg-white border-top">
+    <p class="text-muted small mb-0">
+      &copy; 2025 FITZONE Studio — All Rights Reserved
+    </p>
+  </footer>
+
+  <!-- Scroll to Top -->
+  <button
+    id="scrollToTop"
+    class="btn btn-secondary position-fixed"
+    style="bottom: 20px; right: 20px; border-radius: 50%; width: 45px; height: 45px;"
+  >
+    ↑
+  </button>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
